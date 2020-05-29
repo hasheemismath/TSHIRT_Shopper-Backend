@@ -44,5 +44,5 @@ app.use('/api',stripeRoutes)
 const port = process.env.PORT || 8000;
 
 app.listen(port, () => {
-    console.log(`app is up and running in port ${port}`)
+    console.log(`app is up and running in port: ${port}`)
 });
