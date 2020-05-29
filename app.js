@@ -15,6 +15,7 @@ const stripeRoutes = require('./routes/stripepayment')
 
 const app = express();
 
+require('./prod')(app)
 
 
 mongoose.connect(process.env.DATABASE, {
